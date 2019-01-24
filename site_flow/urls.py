@@ -23,5 +23,5 @@ from home.views import HomepageView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', HomepageView.as_view()),
+    path('index.html', HomepageView.as_view()),
 ]
