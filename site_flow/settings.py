@@ -55,7 +55,7 @@ ROOT_URLCONF = 'site_flow.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates/home'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
