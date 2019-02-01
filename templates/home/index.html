@@ -7,6 +7,16 @@
   </head>
   <body>
     <h1>FLOW</h1>
+
+       <form action="/registration/success" method="post">
+           {% csrf_token %}
+           E-mail: <br>
+           <input type="email" name="email"> <br>
+           Password: <br>
+           <input type="password" name ="psw"> <br>
+           <input type="submit" value="Submit">
+        </form>
+
     <script src="http://code.jquery.com/jquery.js"></script>
   </body>
 </html>
